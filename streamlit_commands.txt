@@ -1,0 +1,2 @@
+streamlit run "C:\Users\vaishnavi shervegar\Downloads\parkinson disease\app.py"
+

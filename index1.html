@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkinsons</title>
+    <link rel="icon" type="images/png" href="images/parkinsons logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a36897a85f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "i4u605tz2t");
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.jpg" class="logo">
+                <ul id="sidememu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Symptoms">Symptoms</a></li>
+                    <li><a href="#Prediction">Prediction</a></li>
+                    
+                    <i class="fa-solid fa-xmark" onclick="closememu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmemu()"></i>
+            </nav>
+            <div class="header-text animated animatedFadeInUp fadeInUp">
+                <h1>Detection</h1>
+                <h1>of <span>Parkinsons</span><br>Disease</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about 1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Parkinson’s</h1>
+                    <p>Parkinson's disease is a progressive neurological disorder that affects movement. 
+                        It develops gradually, often starting with a barely noticeable tremor in one hand.
+                        Over time, it may also cause stiffness or slowing of movement.
+                        The primary cause of Parkinson's disease is the loss of cells in the brain that produce dopamine, a neurotransmitter involved in movement control.
+                        Symptoms typically appear when dopamine levels drop significantly. Besides motor symptoms, Parkinson's can also cause non-motor symptoms 
+                        such as cognitive changes, mood disorders, and autonomic dysfunction.
+                        While the exact cause of Parkinson's disease is not fully understood, it is believed to involve a combination of genetic and environmental factors. 
+                        There is currently no cure for Parkinson's disease, but treatments such as medication, surgery, and therapy can help manage symptoms
+                         and improve quality of life for people living with the condition</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Causes')">Causes</p>
+                        <p class="tab-links" onclick="opentab('Risk factors')">Risk factors</p>
+                        <p class="tab-links" onclick="opentab('Complications')">Complications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Causes">
+                        <ul>
+                            <li><span></span>In Parkinson’s disease, certain nerve cells (neurons) in
+                                 the brain gradually break down or die. Many of the symptoms are due to a loss of neurons that
+                                  produce a chemical messenger in your brain called dopamine.
+                                  <br>
+                                  The cause of Parkinson’s disease is unknown, but several factors appear to play a role, including: </li>
+                            <li><span>Genes</span><br>Researchers have identified specific genetic mutations that can cause Parkinson’s disease. 
+                                But these are uncommon except in rare cases with many family members affected by Parkinson’s disease.However,
+                                 certain gene variations appear to increase the risk of Parkinson’s disease but with a relatively small 
+                                 risk of Parkinson’s disease for each of these genetic markers.</li>
+                            <li><span>Environmental triggers</span><br>Exposure to certain toxins or environmental factors may increase the risk
+                                 of later Parkinson’s disease, but the risk is relatively small.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Risk factors">
+                        <ul>
+                            <li><span>Age</span><br>Young adults rarely experience Parkinson’s disease. It ordinarily begins in middle or 
+                                late life, and the risk increases with age. People usually develop the disease around age 60 or older.</li>
+                            <li><span>Heredity </span><br>Having a close relative with Parkinson’s disease increases the chances 
+                                that you’ll develop the disease. However, your risks are still small unless you have many relatives 
+                                in your family with Parkinson’s disease.</li>
+                            <li><span>Exposure to toxins</span><br>Ongoing exposure to herbicides and pesticides may slightly increase your risk
+                                 of Parkinson’s disease.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Complications">
+                        <ul>
+                            <li><span>Thinking difficulties</span><br>You may experience cognitive problems (dementia) and thinking difficulties. 
+                                These usually occur in the later stages of Parkinson’s disease. Such cognitive problems aren’t very responsive to medications.</li>
+                            <li><span>Depression and emotional changes</span><br>You may experience depression, sometimes in the very early stages.
+                                 Receiving treatment for depression can make it easier to handle the other challenges of Parkinson’s disease.
+                                 You may also experience other emotional changes, such as fear, anxiety or loss of motivation. Doctors may give you 
+                                 medications to treat these symptoms.</li>
+                            <li><span>Sleep problems and sleep disorders</span><br>People with Parkinson’s disease often have sleep problems, 
+                                including waking up frequently throughout the night, waking up early or falling asleep during the day.
+                                People may also experience rapid eye movement sleep behavior disorder, which involves acting out your dreams. 
+                                Medications may help your sleep problems.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------Symptoms--------- -->
+    <div id="Symptoms">
+        <div class="container">
+            <h1 class="sub-title">Symptoms</h1>
+            <div class="Symptoms-list">
+                <div>
+                    <i class=""></i>
+                    <h2>Tremors</h2>
+                    <p>Tremors are one of the earlier symptoms of Parkinsonism and Parkinson’s disease. 
+                        There are many types of tremors, but the tremors that occur in Parkinsonism are called resting tremors,
+                         meaning that they happen when a person is at rest and not performing a voluntary action.
+                         These tremors typically occur in the hands and arms, but sometimes occur in the chin or legs.
+                         The resting hand tremors are sometimes referred to as “pill-rolling” because it looks like the person is repeatedly
+                          rolling a pill between their thumb and fingers. </p>
+                          <br>
+                   
+                </div>
+                <div>
+                    <i class=""></i>
+                    <h2>Slowed movement (bradykinesia)</h2>
+                    <p>Over time, Parkinson’s disease may slow your movement, making simple tasks difficult and time-consuming. </p>
+                    <br>
+                  
+                </div>
+                <div>
+                    <i class=""></i>
+                    <h2>Rigid muscles</h2>
+                    <p> Muscle stiffness may occur in any part of your body. The stiff muscles can be painful and limit your range of motion. </p>
+                    <br>
+                    
+                </div>
+                <div>
+                    <i class=""></i>
+                    <h2>Impaired posture and balance</h2>
+                    <p>Your posture may become stooped, or you may have balance problems as a result of Parkinson’s disease. </p>
+                    <br>
+                    
+                </div>
+                <div>
+                    <i class=""></i>
+                    <h2>Loss of automatic movements</h2>
+                    <p> You may have a decreased ability to perform unconscious movements, including blinking,
+                         smiling or swinging your arms when you walk. </p>
+                         <br>
+                    
+                </div>
+                <div>
+                    <i class=""></i>
+                    <h2>Speech changes</h2>
+                    <p> You may speak softly, quickly, slur or hesitate before talking.
+                         Your speech may be more of a monotone rather than have the usual inflections.</p>
+                         <br>
+                    
+                </div>
+                <div>
+                    <i class=""></i>
+                    <h2>Writing changes</h2>
+                    <p> It may become hard to write, and your writing may appear small.</p>
+                    <br>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------Prediction------ -->
+    <div id="Prediction">
+        <div class="container">
+            <h1 class="sub-title">Prediction</h1>
+            <a href="http://localhost:8501" class="btn btn-outline-danger">Predict</a>
+            
+            
+                
+                
+                
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link")
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab")
+                    }
+                    event.currentTarget.classList.add("active-link")
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+            <script>
+                var sidememu = document.getElementById("sidememu")
+                function openmemu() {
+                    sidememu.style.right = "0";
+                }
+                function closememu() {
+                    sidememu.style.right = "-200px";
+                }
+            </script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbzCAisZMHazohtwuB28nIDN9biC_O-H1zpbO4pPXZjyYdrCFMAVoKcE2ilKe14KjTt_/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg")
+                const waitMsg = document.getElementById("wait-msg")
+                form.addEventListener('submit', e => {
+                    e.preventDefault();
+                    waitMsg.innerHTML = "Please wait...";
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => {
+                            waitMsg.innerHTML = "";
+                            msg.innerHTML = "Message sent successfully";
+                            setTimeout(function () {
+                                msg.innerHTML = "";
+                            }, 5000);
+                            form.reset();
+                        })
+                        .catch(error => {
+                            waitMsg.innerHTML = "";
+                            console.error('Error!', error.message);
+                        });
+                });
+            </script>
+        
+
+
+
+
+
+
+
+
+
+
+            
+    
+
+</body>
+
+</html>
